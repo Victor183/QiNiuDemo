@@ -1,0 +1,10 @@
+qiniu:
+  accessKey: h8YDPdQywUiNn7OFYKS-boMxORMbL41ND3eWTwO7
+  secretKey: T7A8ZkPzY4Y6CShYRwnYXXiYLkLAvLsyWLtHNlz5
+  bucket: testrepo
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 5MB
+      max-request-size: 20MB
